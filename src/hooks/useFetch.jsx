@@ -12,11 +12,7 @@ export function useFetch(url) {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const responsive = await axios.get(url, {
-          headers: {
-            "Access-Control-Allow-Origin": "*"
-          }
-        });
+        const responsive = await axios.get(url);
         setData(responsive.data);
         setListGoods(responsive.data);
       } catch (error) {

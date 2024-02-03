@@ -24,11 +24,7 @@ export function Featureds() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const responsive = await axios.get('https://mern-shoppay-3ce29f4adce3.herokuapp.com/api/products', {
-          headers: {
-            "Access-Control-Allow-Origin": "*"
-          }
-        });
+        const responsive = await axios.get('https://mern-shoppay-3ce29f4adce3.herokuapp.com/api/products');
         setProducts(responsive.data);
       } catch (error) {
         setError(true);
