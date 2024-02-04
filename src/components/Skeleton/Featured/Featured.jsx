@@ -5,8 +5,7 @@ export function Featured(props) {
   const styles = {
     width: "100%",
     height: "100%",
-    maxWidth: "312.5px",
-    maxHeight: "800px",
+    maxHeight: "50rem",
   };
 
   const viewBoxOption = "0 0 312.5 452.45";

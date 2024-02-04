@@ -5,11 +5,10 @@ export function MobileProduct(props) {
   const styles = {
     width: "100%",
     height: "100%",
-    maxWidth: "1402",
-    maxHeight: "1235",
+    maxHeight: "78rem",
   };
 
-  const viewBoxOption = "0 0 1402 1235";
+  const viewBoxOption = "0 0 1402 1248";
 
   return (
     <ContentLoader
@@ -22,7 +21,7 @@ export function MobileProduct(props) {
     >
       <rect x="0" y="0" rx="8" ry="6" width="304" height="324" />
       <rect x="0" y="344" rx="8" ry="6" width="304" height="324" />
-      <rect x="344" y="0" rx="8" ry="6" width="75%" height="668" />
+      <rect x="344" y="0" rx="8" ry="6" width="calc(100% - 345px)" height="668" />
       <rect x="0" y="725" rx="8" ry="6" width="100%" height="50" />
       <rect x="0" y="810" rx="8" ry="6" width="110" height="40" />
       <rect x="132" y="810" rx="8" ry="6" width="110" height="40" />
