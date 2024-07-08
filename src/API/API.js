@@ -5,7 +5,7 @@ export const SendEmail = async ({ firstName, lastName, email, phone, message }, 
   try {
     setLoading(true);
     const data = { firstName, lastName, email, phone, message }
-    let response = await axios.post(`https://mern-shoppay-3ce29f4adce3.herokuapp.com/api/send`, data);
+    let response = await axios.post(`https://mern-shoppay.onrender.com//api/send`, data);
 
     if (response) {
       setSend(response.data);

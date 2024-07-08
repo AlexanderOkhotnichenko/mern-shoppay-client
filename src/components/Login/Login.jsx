@@ -22,7 +22,7 @@ export function Login() {
 
     try {
       setDisabledButton(true);
-      const url = "https://mern-shoppay-3ce29f4adce3.herokuapp.com/api/auth";
+      const url = "https://mern-shoppay.onrender.com/api/auth";
       const { data: res } = await axios.post(url, data);
       cookies.set('token', res.data);
       cookies.set('user', data.email);

@@ -12,7 +12,7 @@ export function ProductPage() {
   const [loading, setLoading] = useState(true);
   const breakpoint = 770;
 
-  const { data } = useFetch("https://mern-shoppay-3ce29f4adce3.herokuapp.com/api/products");
+  const { data } = useFetch("https://mern-shoppay.onrender.com/api/products");
   const [width] = useSizeWindow();
 
   useEffect(() => {

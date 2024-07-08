@@ -13,7 +13,7 @@ export function FeaturedList() {
   const prevButton = useRef();
   const nextButton = useRef();
 
-  const { data, loading } = useFetch('/api/featureds');
+  const { data, loading } = useFetch('https://mern-shoppay.onrender.com/api/featureds');
 
   useEffect(() => {
     if (swiper) {

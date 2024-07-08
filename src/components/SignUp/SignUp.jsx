@@ -35,7 +35,7 @@ export function SignUp() {
 
     try {
       setDisabledButton(true);
-      const url = "https://mern-shoppay-3ce29f4adce3.herokuapp.com/api/users";
+      const url = "https://mern-shoppay.onrender.com/api/users";
       const response = await axios.post(url, data);
       setCreate(response.data.message);
       setData({

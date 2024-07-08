@@ -15,7 +15,7 @@ export function ShopPage() {
   const [isOpen, setIsOpen] = useState(false);
 
   const { data, listGoods, loading } = useFetch(
-    "https://mern-shoppay-3ce29f4adce3.herokuapp.com/api/products"
+    "https://mern-shoppay.onrender.com/api/products"
   );
 
   // PAGINATION PAGE
