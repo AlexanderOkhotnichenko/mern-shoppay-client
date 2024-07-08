@@ -1,7 +1,7 @@
 .signup {
   @apply relative min-h-screen-80;
   &__content {
-    @apply p-4 w-full flex items-center justify-center;
+    @apply p-4 w-full flex items-center justify-centermin-h-screen-80;
   }
   .form {
     @apply bg-white rounded-md py-12 px-10 w-full max-w-30 shadow-auth;
